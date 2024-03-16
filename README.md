@@ -1,4 +1,4 @@
-# Teaching Tech (Say Somaali, Hop & Hustle Heights collab)
+# Teaching Tech
 
 ## Session 1 - March 17th, 2024
 
