@@ -1,4 +1,4 @@
-# codingsession-saysomaali
+# Teaching Tech (Say Somaali, Hop & Hustle Heights collab)
 
 ## Session 1 - March 17th, 2024
 
