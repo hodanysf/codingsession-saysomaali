@@ -1,4 +1,7 @@
-# Teaching Tech ![alt text](http://url/to/img.png)
+# Teaching Tech 
+<img width="150" alt="Screenshot 2024-03-20 at 4 19 14 PM" src="https://github.com/hodanysf/codingsession-saysomaali/assets/81816993/6a7dc6d5-4cb0-470d-9182-4b6c04b07d2f">
+
+
 https://saysomaali.ca/tech
 ## Session 1 - March 17th, 2024
 ### Workshop Overview
