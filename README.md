@@ -1,5 +1,5 @@
-# Teaching Tech
-
+# Teaching Tech ![alt text](http://url/to/img.png)
+https://saysomaali.ca/tech
 ## Session 1 - March 17th, 2024
 ### Workshop Overview
 
@@ -17,7 +17,10 @@ To further enhance your learning, we recommend exploring the following resources
 
 
 ## Session 2 - March 24th, 2024
+Content will be available soon…
 
 ## Session 3 - March 31st, 2024
+Content will be available soon…
 
 ## Session 4 - April 21st, 2024
+Content will be available soon…
