@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo List</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>My Todo List</h1>
+        <!-- Your code here -->
+        <input type="text" id="todo-input" placeholder="Add a new task">
+        <button id="submit-button" onclick="addTodo()">Add</button>
+        <ul id="todo-list" class="list-inline"></ul>
+    </div>
+    <script>
+        // Your code here
+        const todoInput = document.getElementById("todo-input");
+        const todoList = document.getElementById("todo-list");
+        const submitButton = document.getElementById("submit-button");
+
+        function addTodo() {
+            const value = todoInput.value.trim();
+            const todoItem = document.createElement("li");
+            todoItem.classList.add("list-item", "p-2", "m-1");
+            if (value !== "") {
+                todoItem.textContent = value;
+                todoList.appendChild(todoItem);
+
+                todoInput.value = "";
+            } 
+
+            // delete button
+            const deleteButton = document.createElement("button");
+            deleteButton.classList.add("btn", "btn-danger", "btn-sm", "m-3");
+            deleteButton.textContent = "Delete";
+            deleteButton.addEventListener("click", function() {
+                todoList.removeChild(todoItem);
+            });
+            todoItem.appendChild(deleteButton);
+            todoItem.addEventListener("click", completeTodo);
+        }
+
+        function completeTodo(event) {
+            console.log(event.target)
+            event.target.classList.toggle("mark");
+        }
+
+        submitButton.addEventListener("click", addTodo);
+
+    </script>
+</body>
+</html>
