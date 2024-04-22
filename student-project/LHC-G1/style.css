@@ -1,0 +1,27 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(18, 30, 64);
+    color:black;
+}
+
+.container{
+    max-width: 1000px;
+    max-height: 2000px;
+    margin: 20px auto;
+    padding: 100px;
+    background-color: rgb(228, 205, 231);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture{
+    display:block;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
